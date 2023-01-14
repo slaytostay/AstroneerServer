@@ -6,4 +6,4 @@ services:
      - "7777:7777/udp"
      - "5000:5000/tcp"
     volumes:
-     - C:/Users/Armadous/AstroneerServer/AstroneerServer/Saved:c:/astroneer/Astro/Saved
+     - /mnt/nas/docker/astroneer/saved:c:/astroneer/Astro/Saved
